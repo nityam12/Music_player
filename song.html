@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TakiTaki</title>
+	 <link rel="icon" href="favicon.ico" type="image/gif" sizes="16x16">
+	 <meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width,initial-scale=1.0"> 
+	<a href="https://icons8.com/icon/42834/music"></a>
+	<script src="https://kit.fontawesome.com/3505eac404.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="song.css">
+</head>
+		<body>
+			<div id="header-container">
+		<div id=intro-container>
+		<div id="header-icon-text-container">
+		<div id="header-icon">
+			<img src="https://img.icons8.com/dusk/128/000000/music.png"/>
+		</div>
+		<div id="header-texts">
+			<span id="first">Ninja</span><br>
+			<span id="second">Studio</span>
+		</div>
+		</div>
+			<button type="button" id="favourites-container">
+
+		<span>favourites</span>
+
+	</button>
+
+		</div>
+
+	
+
+	<div id="search-container">
+		<form>
+					
+			<span id="searchtry">
+					<button type="button" id="search-button">
+					<i class="fas fa-search"></i>
+			</button>
+
+			
+			<input type="text" id="search-text" name="search-text" val="" placeholder="Search">
+			<button type="button" id="voice-button">
+					<i class="fas fa-microphone"></i>
+			</button>	
+			
+</span>
+			<button type="button" id="notification-button">
+				<span>
+					<img src="icons/notification.png">
+				</span>
+			</button>
+
+
+		<!-- try -->
+		<div class="persoanl-setting-button">
+ 				<input type="checkbox" class="toggler">	
+ 				<div class="whity hambur">
+ 					<img src="icons/playlist/somi.jpg">
+ 				</div>
+ 					<div class="menu">
+ 					   		<ul>
+ 					   			<li>
+ 					   				<span><i class="fas fa-user"></i></span>&ensp;&ensp;
+ 					   				<a href="#">Manage Your Account</a>
+
+ 					   			</li>
+ 					   			<li><span><i class="fas fa-photo-video"></i></span>&ensp;&ensp;<a href="#">Get Music Premium</a></li>
+ 					   			<li><span><i class="fas fa-star"></i></span>&ensp;&ensp;<a href="#">Switch Account</a></li>
+ 					   			<li><span><i class="fas fa-info-circle"></i></span>&ensp;&ensp;<a href="#">Sign-out</a></li>	
+
+ 					   		</ul>	
+ 				    </div>
+ 				</div>
+
+			<!-- <button type="button" id="persoanl-setting-button">
+				<span>
+					<img src="icons/dany.jpg">
+				</span>
+			</button> -->
+
+<!-- try-end -->
+		</form>
+
+    </div>
+
+</div>
+
+
+
+<div class="media">
+
+
+ 		<div class="currently-played-song">
+ 			<img src="icons/coverc.jpg">
+ 			<h2>Birthday by So<span id="blurred"></span></h2>
+ 			<h4>Somi Somi</h4>
+
+ 			<button type="button" id="like">
+ 					<i class="fas fa-thumbs-up"></i>
+ 				</button>
+
+
+ 				<button type="button" id="dislike">
+ 					<i class="fas fa-thumbs-down"></i>
+ 				</button>
+ 			
+ 			
+
+ 		</div> 
+
+ 			<div class="central-audio-bar-container">
+
+ 			<div class="central-audio-bar">
+
+
+ 				<button type="button" id="pausexx-play">
+ 					<i class="fas fa-random"></i>
+ 				</button>	
+ 				<button type="button" id="pausesd-play">
+ 					<i class="fas fa-step-backward"></i>
+ 				</button>	
+ 				<button type="button" id="pause-play">
+ 					<i class="fas fa-pause-circle"></i>
+ 				</button>	
+
+ 				<button type="button" id="pausex-play">
+ 					<i class="fas fa-step-forward"></i>
+ 				</button>	
+ 				
+ 				<button type="button" id="pausex-play">
+ 					<i class="fas fa-redo"></i>
+ 				</button>
+
+
+ 				 </div>
+ 			<div class="bar-outer">
+ 				
+ 				<div class="bar-inner">
+
+ 			</div>
+
+ 				<div class="bar-vertex">
+ 			</div>
+
+ 			<span class="time-before">1:11</span>
+ 			<span class="time-after">4:55</span>
+ 			
+
+ 			</div>
+			
+
+</div>
+			
+			<div class="side-container">
+
+				<button type="button" id="pausexx-play">
+ 					<i class="fas fa-stream"></i>
+ 				</button>
+
+ 				<button type="button" id="pausexx-play">
+ 					<i class="fas fa-volume-mute"></i>
+ 				</button>
+ 			
+ 				<button type="button" id="pausexx-play">
+ 					<i class="fas fa-volume-up"></i>
+ 				</button>
+
+ 				<div class="volume-bar-outer">
+ 				
+ 				<div class="bar-inner">
+
+ 			    </div>
+
+ 				<div class="bar-vertex">
+ 			    </div>
+	 			    		</div>
+ 
+
+ 				<button type="button" id="pausexx-play">
+ 					<i class="fas fa-expand-alt"></i>
+ 				</button>
+
+ 				<button type="button" id="pausexx-play">
+ 					<i class="fas fa-download"></i>
+ 				</button>
+			</div>
+ 		</div>
+ 					<main>
+ 						<section class="song-detail">
+ 							<div class="image-container">
+
+ 								<img src="icons/abc.jpg">
+</div>
+
+	<div class="song-desc">
+		<div class="upper">
+				<h2 class="whity name">Cold Play</h2>
+				<span class="ltwhity follower">851 Followers</span>
+				<h4 class="ltwhity brand">British Band</h4><br>
+					<p class="voby">Music is a form of art; an expression of emotions through harmonic frequencies. ... Most music includes people singing with their voices or playing musical instruments, such as the piano, guitar, drums or violin. The word music comes from the Greek word (mousike), which means "(art) of the Muses".</p>
+
+		</div>
+
+		<div class="down">
+				<div class="play-button">
+					<button type="button">Play All</button>
+				</div>
+					<span class="whity follow">Follow</span>
+
+					<span class="ltwhity track">247 Tracks|128 Albums</span>
+
+
+		</div>
+
+	</div>
+
+
+
+
+ 						</section>
+
+ 			<section class="follow-up-songs">
+
+ 				<div class="playlist-songs">
+ 		<span class="index ltwhity">01</span>
+ 		<div class="play-image-con">
+
+ 			<button type="button" class="play-button"><img src="icons/playlist/somi.jpg"></button>
+ 				<span class="album whity">Mirage</span>
+ 		<span class="song ltwhity">Else</span>
+ 				<span class="playable"><i class="fas fa-play"></i></span>
+ 		</div>
+ 	
+
+ 		<button type="button" class="whity heart">
+ 			<i class="far fa-heart"></i>
+ 		</button>
+<button type="button" class="whity plus">
+ 			<i class="fas fa-plus"></i>
+ 		</button>
+ 	
+
+ 	</div>
+
+ 	<div class="playlist-songs">
+ 		<span class="index ltwhity">02</span>
+ 		<div class="play-image-con">
+
+ 			<button type="button" class="play-button"><img src="icons/playlist/somi.jpg"></button>
+ 				<span class="album whity">Mirage</span>
+ 		<span class="song ltwhity">Else</span>
+ 				<span class="playable"><i class="fas fa-play"></i></span>
+ 		</div>
+ 		
+
+ 		<button type="button" class="whity heart">
+ 			<i class="far fa-heart"></i>
+ 		</button>
+<button type="button" class="whity plus">
+ 			<i class="fas fa-plus"></i>
+ 		</button>
+ 		
+
+ 	</div>
+ 			<div class="playlist-songs">
+ 		<span class="index ltwhity"><i class="fas fa-signal"></i></span>
+ 		<div class="play-image-con">
+
+ 			<button type="button" class="play-button"><img src="icons/playlist/somi.jpg"></button>
+ 				<span class="album whity">Mirage</span>
+ 		<span class="song ltwhity">Else</span>
+ 				<span class="playable"><i class="fas fa-play"></i></span>
+ 		</div>
+
+ 		<button type="button" class="whity heart">
+ 			<i class="far fa-heart"></i>
+ 		</button>
+<button type="button" class="whity plus">
+ 			<i class="fas fa-plus"></i>
+ 		</button>
+ 		
+ 	</div>
+
+ 	<div class="playlist-songs">
+ 		<span class="index ltwhity">04</span>
+ 		<div class="play-image-con">
+
+ 			<button type="button" class="play-button"><img src="icons/playlist/somi.jpg"></button>
+ 				<span class="album whity">Mirage</span>
+ 		<span class="song ltwhity">Else</span>
+ 				<span class="playable"><i class="fas fa-play"></i></span>
+ 		</div>
+
+ 		<button type="button" class="whity heart">
+ 			<i class="far fa-heart"></i>
+ 		</button>
+ 		<button type="button" class="whity plus">
+ 			<i class="fas fa-plus"></i>
+ 		</button>
+ 	
+ 	</div>
+
+ 	<div class="playlist-songs">
+ 		<span class="index ltwhity">05</span>
+ 		<div class="play-image-con">
+
+ 			<button type="button" class="play-button"><img src="icons/playlist/somi.jpg"></button>
+ 				<span class="album whity">Mirage</span>
+ 		<span class="song ltwhity">Else</span>
+ 				<span class="playable"><i class="fas fa-play"></i></span>
+ 		</div>
+
+ 		<button type="button" class="whity heart">
+ 			<i class="far fa-heart"></i>
+ 		</button>
+ 		<button type="button" class="whity plus">
+ 			<i class="fas fa-plus"></i>
+ 		</button>
+ 		
+ 	</div>
+
+ 	<div class="playlist-songs">
+ 		<span class="index ltwhity">06</span>
+ 		<div class="play-image-con">
+
+ 			<button type="button" class="play-button"><img src="icons/playlist/somi.jpg"></button>
+ 				<span class="album whity">Mirage</span>
+ 		<span class="song ltwhity">Else</span>
+ 				<span class="playable"><i class="fas fa-play"></i></span>
+ 		</div>
+
+ 		<button type="button" class="whity heart">
+ 			<i class="far fa-heart"></i>
+ 		</button>
+ 		<button type="button" class="whity plus">
+ 			<i class="fas fa-plus"></i>
+ 		</button>
+ 		
+ 	</div>
+
+ 	<div class="playlist-songs">
+ 		<span class="index ltwhity">07</span>
+ 		<div class="play-image-con">
+
+ 			<button type="button" class="play-button"><img src="icons/playlist/somi.jpg"></button>
+ 				<span class="album whity">Mirage</span>
+ 		<span class="song ltwhity">Else</span>
+ 				<span class="playable"><i class="fas fa-play"></i></span>
+ 		</div>
+
+ 		<button type="button" class="whity heart">
+ 			<i class="far fa-heart"></i>
+ 		</button>
+ 		<button type="button" class="whity plus">
+ 			<i class="fas fa-plus"></i>
+ 		</button>
+ 		
+ 	</div>
+
+
+
+ 	</section>
+
+ 	
+</main>
+
+
+
+
+<aside>
+ 					
+ 	<div class="side-menu-header">
+ 		<h3 class="whity">Similar Artist</h3>
+ 		<span class="views">view all</span>		
+ 	</div>
+ 			<div id=latest-release-content-container>
+
+ 			<div class="content-container">
+ 				<div class="latest-release-image-container">
+ 					<img src="icons/latest/albuma.jpg">
+ 					<h6 class="whity name-f">Imagine Dragons</h6>	
+ 				<h6 class="ltwhity name-s">Pop Band</h6>
+ 				</div>
+ 				
+ 				<h6 class="ltwhity name-t">4:44</h6>
+ 					<div class="menu-wrap">
+ 				<input type="checkbox" class="toggler">	
+ 				<div class="whity hambur">
+ 					<i class="fas fa-bars"></i>
+ 				</div>
+ 					<div class="menu">
+ 					   		<ul>
+ 					   			<li>
+ 					   				<span><i class="fas fa-play"></i></span>&ensp;&ensp;
+ 					   				<a href="#">Play Now</a>
+
+ 					   			</li>
+ 					   			<li><span><i class="fas fa-plus"></i></span>&ensp;&ensp;<a href="#">Add To Queue</a></li>
+ 					   			<li><span><i class="fas fa-star"></i></span>&ensp;&ensp;<a href="#">Add To Favourite</a></li>
+ 					   			<li><span><i class="fas fa-info-circle"></i></span>&ensp;&ensp;<a href="#">Get Info</a></li>	
+
+ 					   		</ul>	
+ 				    </div>
+ 				</div>
+
+ 			</div>
+ 			<div class="content-container">
+ 				<div class="latest-release-image-container">
+ 					<img src="icons/latest/albumb.jpg">
+ 					<h6 class="whity name-f">Imagine Dragons</h6>	
+ 					<h6 class="ltwhity name-s">Pop Band</h6>
+ 				
+ 				</div>
+ 				
+ 				<h6 class="ltwhity name-t">4:45</h6>
+ 			<div class="menu-wrap">
+ 				<input type="checkbox" class="toggler">	
+ 				<div class="whity hambur">
+ 					<i class="fas fa-bars"></i>
+ 				</div>
+ 					<div class="menu">
+ 					   		<ul>
+ 					   			<li>
+ 					   				<span><i class="fas fa-play"></i></span>&ensp;&ensp;
+ 					   				<a href="#">Play Now</a>
+
+ 					   			</li>
+ 					   			<li><span><i class="fas fa-plus"></i></span>&ensp;&ensp;<a href="#">Add To Queue</a></li>
+ 					   			<li><span><i class="fas fa-star"></i></span>&ensp;&ensp;<a href="#">Add To Favourite</a></li>
+ 					   			<li><span><i class="fas fa-info-circle"></i></span>&ensp;&ensp;<a href="#">Get Info</a></li>	
+
+ 					   		</ul>	
+ 				    </div>
+ 				</div>
+ 			
+ 			</div>	
+
+ 			<div class="content-container">
+ 				<div class="latest-release-image-container">
+ 					<img src="icons/latest/albumc.jpg">
+ 					<h6 class="whity name-f">Lauren</h6>	
+ 				<h6 class="ltwhity name-s">Pop Band</h6>
+ 				</div>
+ 				
+ 				<h6 class="ltwhity name-t">5:44</h6>
+ 					<div class="menu-wrap">
+ 				<input type="checkbox" class="toggler">	
+ 				<div class="whity hambur">
+ 					<i class="fas fa-bars"></i>
+ 				</div>
+ 					<div class="menu">
+ 					   		<ul>
+ 					   			<li>
+ 					   				<span><i class="fas fa-play"></i></span>&ensp;&ensp;
+ 					   				<a href="#">Play Now</a>
+
+ 					   			</li>
+ 					   			<li><span><i class="fas fa-plus"></i></span>&ensp;&ensp;<a href="#">Add To Queue</a></li>
+ 					   			<li><span><i class="fas fa-star"></i></span>&ensp;&ensp;<a href="#">Add To Favourite</a></li>
+ 					   			<li><span><i class="fas fa-info-circle"></i></span>&ensp;&ensp;<a href="#">Get Info</a></li>	
+
+ 					   		</ul>	
+ 				    </div>
+ 				</div>
+ 			</div>
+ 		</div>
+
+ 		<div class="played">
+ 		<div class="side-menu-header">
+ 		<h3 class="whity">Recently Played</h3>
+ 		<span class="views">view all</span>		
+ 	</div>
+ 			<div class="playlist-songs">
+ 		<span class="index ltwhity">01</span>
+ 		<div class="play-image-con">
+
+ 			<button type="button" class="play-button"><img src="icons/playlist/somi.jpg"></button>
+ 				<span class="album whity">Mirage</span>
+ 		<span class="song ltwhity">Else</span>
+ 				<span class="playable"><i class="fas fa-play"></i></span>
+ 		</div>
+ 	
+
+ 		<button type="button" class="whity heart">
+ 			<i class="far fa-heart"></i>
+ 		</button>
+
+ 	
+
+ 	</div>
+
+ 	<div class="playlist-songs">
+ 		<span class="index ltwhity">02</span>
+ 		<div class="play-image-con">
+
+ 			<button type="button" class="play-button"><img src="icons/playlist/somi.jpg"></button>
+ 				<span class="album whity">Mirage</span>
+ 		<span class="song ltwhity">Else</span>
+ 				<span class="playable"><i class="fas fa-play"></i></span>
+ 		</div>
+ 		
+
+ 		<button type="button" class="whity heart">
+ 			<i class="far fa-heart"></i>
+ 		</button>
+
+ 		
+
+ 	</div>
+ 			<div class="playlist-songs">
+ 		<span class="index ltwhity"><i class="fas fa-signal"></i></span>
+ 		<div class="play-image-con">
+
+ 			<button type="button" class="play-button"><img src="icons/playlist/somi.jpg"></button>
+ 				<span class="album whity">Mirage</span>
+ 		<span class="song ltwhity">Else</span>
+ 				<span class="playable"><i class="fas fa-play"></i></span>
+ 		</div>
+
+ 		<button type="button" class="whity heart">
+ 			<i class="far fa-heart"></i>
+ 
+ 		
+ 	</div>
+
+ 	<div class="playlist-songs">
+ 		<span class="index ltwhity">04</span>
+ 		<div class="play-image-con">
+
+ 			<button type="button" class="play-button"><img src="icons/playlist/somi.jpg"></button>
+ 				<span class="album whity">Mirage</span>
+ 		<span class="song ltwhity">Else</span>
+ 				<span class="playable"><i class="fas fa-play"></i></span>
+ 		</div>
+
+ 		<button type="button" class="whity heart">
+ 			<i class="far fa-heart"></i>
+ 		</button>
+ 		
+ 	
+ 	</div>
+
+ 			</div>
+</aside>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
